@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Allow Web HTTP",
+    "src_ip": "ANY",
+    "dst_ip": "ANY",
+    "protocol": "TCP",
+    "src_port": "ANY",
+    "dst_port": "80",
+    "action": "ALLOW",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "name": "Allow Web HTTPS",
+    "src_ip": "ANY",
+    "dst_ip": "ANY",
+    "protocol": "TCP",
+    "src_port": "ANY",
+    "dst_port": "443",
+    "action": "ALLOW",
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "name": "Block Insecure Telnet",
+    "src_ip": "ANY",
+    "dst_ip": "ANY",
+    "protocol": "TCP",
+    "src_port": "ANY",
+    "dst_port": "23",
+    "action": "BLOCK",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "name": "Allow DNS Queries",
+    "src_ip": "ANY",
+    "dst_ip": "ANY",
+    "protocol": "UDP",
+    "src_port": "ANY",
+    "dst_port": "53",
+    "action": "ALLOW",
+    "enabled": true
+  },
+  {
+    "id": 5,
+    "name": "Block ICMP Ping",
+    "src_ip": "ANY",
+    "dst_ip": "ANY",
+    "protocol": "ICMP",
+    "src_port": "ANY",
+    "dst_port": "ANY",
+    "action": "BLOCK",
+    "enabled": true
+  }
+]

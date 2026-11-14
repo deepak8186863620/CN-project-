@@ -1,0 +1,4 @@
+# Basic Firewall Implementation using Python
+# Computer Networks Project Requirements
+
+scapy>=2.5.0
